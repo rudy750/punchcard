@@ -4,10 +4,18 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="Hello World, PunchActivity"
-    />
+
+   <Button
+      style="@style/BigUiButton"
+      android:id="@+id/ui_punch_in"
+      android:text="Punch In"
+      />
+
+   <Button
+      style="@style/BigUiButton"
+      android:id="@+id/ui_punch_out"
+      android:text="Punch Out"
+      />
+
 </LinearLayout>
 

@@ -4,3 +4,5 @@ gen/*
 
 # local stuff
 local.properties
+.classpath
+.project
